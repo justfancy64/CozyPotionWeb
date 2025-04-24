@@ -1,0 +1,14 @@
+﻿{
+  "Games": [
+    {
+      "Name": "RL GAME",
+      "Image": "https://cdn.discordapp.com/attachments/1182334510830989382/1364533721335857233/logo_11.png?ex=680b560e&is=680a048e&hm=f8596192e8caf89b7774be8564e2fea80dae411126061da20a593ae413b33afc&",
+      "Description": "MEOW BEST GAME"
+    },
+    {
+      "Name": "MEOW SLIME",
+      "Image": "https://cdn.discordapp.com/attachments/1182334510830989382/1364620656955621386/cozy_potion_header.png?ex=680afe46&is=6809acc6&hm=24a64380c3d45dec2e157f6f7ca2d19b68ace2e1fc84969bdecd5611feae140b&  ",
+      "Description": "MEOW BEST SLIME"
+    }
+  ]
+}
