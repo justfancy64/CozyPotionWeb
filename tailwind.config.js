@@ -11,6 +11,9 @@ export default {
       },
       gridTemplateColumns: {
         '70-30': '70% 28%'
+      },
+      backgroundImage: {
+        bannerImg: "url('/src/assets/potion_pattern_2.png')",
       }
     },
   },

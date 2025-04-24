@@ -1,21 +1,28 @@
 ﻿import React from 'react'
 
 
-const GameListItem = ({name,image,description}) => {
+const GameListItem = ({ name, image, description }) => {
     return (
-        <div className='flex w-full max-w-full  sm:pb-3 sm:pt-3 sm:pl-10 mb-10 mt-10 '>
-            <div className='pe-8 left-0 w-3/4'>
-                <img className='left-0 h-80 w-auto sm:pt-12'  src={image} alt='IMAGE' />
+        <div className='flex flex-col sm:flex-row w-full max-w-full mt-5 mb-5 gap-4 rounded-xl'>
+            {/* Image Section */}
+            <div className='flex justify-center sm:w-3/4 h-96'>
+                <img
+                    className='w-full h-full object-cover rounded-xl shadow-lg'
+                    src={image}
+                    alt={name}
+                />
             </div>
-            <div className=' h-96 w-80 right-0 '>
-                <div className="flex flex-row items-center justify-center h-12 relative sm:pb-4 font-bold text-2xl">
-                    <h1 key={name} className=" text-white "> {name}</h1>
-                </div >
-                <div className=" flex flex-row items-center justify-center h-12 relative ">
-                    <p className="  text-white">{description}</p>
-                </div>
+
+            {/* Info Section */}
+            <div className='flex flex-col justify-center sm:w-1/4 bg-gray-900 rounded-xl p-4'>
+                <h1 className='text-white text-2xl font-bold mb-2 text-center sm:text-left'>
+                    {name}
+                </h1>
+                <p className='text-white text-sm text-center sm:text-left'>
+                    {description}
+                </p>
             </div>
         </div>
-    )
-}
+    );
+};
 export default GameListItem

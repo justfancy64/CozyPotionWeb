@@ -13,10 +13,10 @@ import LicencePage from './Pages/LicencePage.jsx'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route Path="/" element={<MainLayout />}>
+        <>
             <Route index element={<HomePage />} />
             <Route path="/Licence" element={<LicencePage />} />
-        </Route>
+        </>
     )
 );
 const App = () => {
