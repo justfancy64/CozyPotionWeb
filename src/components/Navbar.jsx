@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import logo from '../assets/cozylogored.png'
+import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
     const linkClass = 'pb-5 text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2';
@@ -17,18 +18,18 @@ const Navbar = () => {
                         </navLink>
                         <div className='md:ml-auto'>
                             <div className='flex space-x-2 sm:pt-3'>
-                                <navLink to='/' className={linkClass}>
+                                <NavLink to='/' className={linkClass}>
                                     Home
-                                </navLink>
-                                <navLink to='/Games' className={linkClass}>
+                                </NavLink>
+                                <NavLink to='/Games' className={linkClass}>
                                     Games
-                                </navLink>
-                                <navLink to='/Socials' className={linkClass}>
+                                </NavLink>
+                                <NavLink to='/Socials' className={linkClass}>
                                     Socials
-                                </navLink>
-                                <navLink to='/About' className={linkClass}>
+                                </NavLink>
+                                <NavLink to='/About' className={linkClass}>
                                     About
-                                </navLink>
+                                </NavLink>
                             </div>
                         </div>
                     </div>

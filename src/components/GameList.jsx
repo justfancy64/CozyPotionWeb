@@ -24,8 +24,8 @@ const GameList = () => {
          */
         <>
         <ul className="z-10 w-fit text-sm font-medium flex-row
-         w-fit h-fit sm:pb-3 sm:pt-3
-        text-gray-900 bg-black  rounded-lg dark:bg-gray-700 dark:text-white">
+         w-fit h-fit sm:pb-3 sm:pt-3 m-4 mb-3
+        text-gray-900 bg-opacity-0  rounded-lg dark:bg-gray-700 dark:text-white">
             {GameData.Games.map(game => (
 
                 <li key={game.Name} className="text-sm font-medium text-gray-900">
