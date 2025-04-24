@@ -10,12 +10,12 @@ const Navbar = () => {
             <div className='max-auto max-w-8xl px-3 sm:px-8 lg:px-7'>
                 <div className='flex h-20 items-center justify-between'>
                     <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-start'>
-                        <navLink className='flex flex-shrink-0 items-center mr-4' to='/'>
+                        <NavLink className='flex flex-shrink-0 items-center mr-4' to='/'>
                             <img className='h-10 w-auto scale-150'  src={logo} alt='React Jobs' />
                             <span className='hidden md:block text-white text-2xl font-bold ml-2'>
                 CozyPotion Games
               </span>
-                        </navLink>
+                        </NavLink>
                         <div className='md:ml-auto'>
                             <div className='flex space-x-2 sm:pt-3'>
                                 <NavLink to='/' className={linkClass}>

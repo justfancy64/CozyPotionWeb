@@ -28,7 +28,7 @@ const GameList = () => {
         text-gray-900 bg-opacity-0  rounded-lg dark:bg-gray-700 dark:text-white">
             {GameData.Games.map(game => (
 
-                <li key={game.Name} className="text-sm font-medium text-gray-900">
+                <li key={game.Name} className=" w-full h-96 bg-purple-900">
                     <>
 
                         <GameListItem name={game.Name} image={game.Image} description={game.Description} />

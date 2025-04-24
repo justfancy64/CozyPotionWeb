@@ -1,9 +1,7 @@
 ﻿import React from 'react'
 import Background from "./Background.jsx";
 import GameList from "./GameList.jsx";
-import raw from "../assets/GameData.json"
 
-import fs from "node:fs"
 
 
 

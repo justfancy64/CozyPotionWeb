@@ -14,7 +14,7 @@ const Footer = () => {
                     <a href="/licence" className="hover:underline me-4 md:me-6">Privacy Policy</a>
                 </li>
                 <li>
-                    <a href="#" className="hover:underline">Contact</a>
+                    <a href="mailto:contact@cozypotion.com#" className="hover:underline">Contact</a>
                 </li>
             </ul>
         </footer>
