@@ -21,7 +21,7 @@ const GameList = () => {
       >
         <p>Bounce to avoid deadly traps and obstacles as</p>
         <p className="pb-10">you descend ever deeper into the earth.. </p>
-        <p>TheMore you bounce --- The faster you fall!</p>
+        <p>The more you bounce --- The faster you fall!</p>
       </a>
     </>
   );

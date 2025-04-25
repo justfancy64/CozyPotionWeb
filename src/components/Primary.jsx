@@ -6,7 +6,7 @@ import Contact from "./Contact.jsx";
 
 const Primary = () => {
   return (
-    <div className="absolute left-1/8 flex flex-col bg-green-purple-2 h-screen align-middle w-3/5 border-r-2 border-l-2 border-green-purple-4 ">
+    <div className="absolute left-1/8 flex flex-col bg-green-purple-2 h-screen align-middle w-3/5 border-r-2 border-l-2 border-black ">
       <a href="/" className="flex justify-center  w-full h-72 rounded-xl">
         <img
           className=" w-5/12 h-auto object-cover bg-green-purple-2"
