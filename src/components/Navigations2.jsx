@@ -5,14 +5,14 @@ const Navigations2 = () => {
     <>
       <a
         href="#"
-        className=" bg-purple-900 w-1/2 h-3/4 m-2 text-white flex flex-row justify-center items-center font-bold text-2xl rounded-xl pr-2"
+        className=" bg-green-purple-1 w-1/2 h-3/4 m-2 text-white flex flex-row justify-center items-center font-bold text-2xl rounded-xl pr-2"
       >
         games
       </a>
 
       <a
         href="mailto:contact@cozypotion.com"
-        className=" bg-purple-900 w-1/2 h-3/4 m-2 text-white flex flex-row justify-center items-center font-bold text-2xl rounded-xl"
+        className=" bg-green-purple-1 w-1/2 h-3/4 m-2 text-white flex flex-row justify-center items-center font-bold text-2xl rounded-xl"
       >
         contact
       </a>

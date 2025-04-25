@@ -5,18 +5,18 @@ import imageY from "../assets/yt_square.png";
 const Contact = () => {
   return (
     <div className="flex flex-row w-full h-28  rounded-xl bg-purple-400">
-      <div className="flex flex-col justify-center items-center w-1/3 bg-gray-800 rounded-l-xl text-white text-2xl">
+      <div className="truncate flex flex-col justify-center items-center w-1/3 bg-green-purple-1 text-white text-2xl">
         <h1>Feel free to join our discord</h1>
       </div>
       <a
-        href="#"
-        className="flex flex-col justify-center items-center w-1/3 bg-discord-blue"
+        href="https://discord.gg/Xcp7fwC8qE"
+        className="flex flex-col justify-center items-center w-1/3 bg-green-purple-1"
       >
         <img src={imageD} alt="" className="h-full w-auto rounded-xl" />
       </a>
       <a
-        href="#"
-        className="flex flex-col justify-center items-center w-1/3 bg-discord-blue rounded-r-xl"
+        href="https://www.youtube.com/@CozyPotion%22"
+        className="flex flex-col justify-center items-center w-1/3 bg-green-purple-1"
       >
         <img
           src={imageY}

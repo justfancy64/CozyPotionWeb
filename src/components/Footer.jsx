@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 z-20 w-full p-4 bg-purple-950 border-t border-purple-900 shadow-sm md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+    <footer className="fixed bottom-0 left-0 z-20 w-full p-4 bg-green-purple-1 border-t border-green-purple-1 shadow-sm md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
       <span className="text-sm text-gray-300 sm:text-center dark:text-gray-400">
         © 2025{" "}
         <a href="https://CozyPotion.games/" className="hover:underline">
