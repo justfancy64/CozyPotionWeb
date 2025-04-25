@@ -1,13 +1,14 @@
-﻿import React from 'react'
+﻿import React from "react";
+import Background from "../components/Background.jsx";
 
-import Primary from "../components/Primary.jsx";
-
+import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
-    return (
-        <>
-            <Primary />
-        </>
-    )
-}
-export default HomePage
+  return (
+    <>
+      <Background />
+      <Footer />
+    </>
+  );
+};
+export default HomePage;

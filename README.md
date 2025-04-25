@@ -1,1 +1,1 @@
-### Cozy Potion Games Website ###
+### Cozy Potion Games Website

@@ -1,12 +1,17 @@
-﻿import React from 'react'
-import BGPotions from '../assets/PotionBG.png'
-import GameList from '../components/GameList'
+﻿import React from "react";
 
+import Primary from "../components/Primary";
 const Background = () => {
-    return (
-        <div className=' absolute bg-purple-700 min-w-full'>
-            <img className=" top-0 left-0 w-full max-w-full min-h-full bg-repeat" src={BGPotions} alt="" />
+  return (
+    <>
+      <section className="bg-purple-600  bg-no-repeat  bg-bottom w-full h-screen">
+        <div className=" flex flex-row justify-center items-center bg-bannerImg bg-repeatbg-bottom h-screen w-full">
+          <Primary />
         </div>
-    )
-}
-export default Background
+      </section>
+    </>
+  );
+};
+export default Background;
+
+//   <img className=" top-0 left-0 w- max-w-full  bg-repeat" src={BGPotions} alt="" />
