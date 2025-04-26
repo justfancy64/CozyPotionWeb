@@ -12,13 +12,19 @@ const Footer = () => {
       </span>
       <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-300 dark:text-gray-400 sm:mt-0">
         <li>
-          <a href="/licence" className=" hover:underline me-4 md:me-6">
+          <a
+            href="http://www.cozypotion.com/privacypolicy"
+            className=" hover:underline me-4 md:me-6"
+          >
             Privacy Policy
           </a>
         </li>
 
         <li>
-          <a href="/TOS" className=" hover:underline me-4 md:me-6 ">
+          <a
+            href="http://www.cozypotion.com/termsofservice"
+            className=" hover:underline me-4 md:me-6 "
+          >
             Terms of Service
           </a>
         </li>
